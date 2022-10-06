@@ -10,7 +10,7 @@
     {
         $id=$_GET['update'];
         $updState=1;
-        var_dump($id);
+        //var_dump($id);
         $data-> select('tbl_students', '*', $id);
         $updResults = $data->res;
         //unset($_GET['update']); 
@@ -76,7 +76,7 @@
                                         }?>
 
                                          <!--Para mapasa yung value nung id sa function.php-->
-                                         <?php $id = $_GET['update']; var_dump($id);?>
+                                         <?php $id = $_GET['update']; //var_dump($id);?>
                                          <input type="hidden" name="id" value="<?php echo $id; ?>">
                                          
                                     <!--Name update field-->
