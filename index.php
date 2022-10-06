@@ -25,13 +25,13 @@
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <title>OOP CRUD</title>
 </head>
-<body class="bg-secondary">
+<body class="bg-secondary"><br>
     <div class="container mb-3 ">
         <div class="row mb-auto">
             <div class="col-lg">
                 <div class="card">
                     <div class="card-header">
-                        <h1>OOP CRUD</h1>
+                        <h1 style="text-align: center;">OOP CRUD</h1>
                         <div class="card-body">
                             <table class="table">
                                 <thead>
@@ -60,7 +60,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div><br>
         <div class="row m-auto">
             <div class="col-lg-6 m-auto">
                 <div class="card">

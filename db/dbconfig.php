@@ -26,7 +26,7 @@
         {
             if($where!=null)
             {
-                $sql = "SELECT $row FROM $table WHERE $where";
+                $sql = "SELECT $row FROM $table WHERE id = $where";
             }
             else
             {
